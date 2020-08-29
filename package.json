@@ -1,7 +1,7 @@
 {
   "name": "@abr-ya/custom-button",
   "module": "/dist/custom-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom button for React JS projects.",
   "scripts": {
     "build": "webpack --config webpack.config.js",
@@ -23,7 +23,7 @@
     "@storybook/components": "^4.1.11",
     "@storybook/react": "^4.1.11",
     "babel-loader": "^8.1.0",
-    "clean-webpack-plugin": "^3.0.0",
+    "clean-webpack-plugin": "^1.0.1",
     "react": "^16.13.1",
     "storybook-addon-jsx": "^6.0.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
