@@ -1,11 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class CustomButton extends Component {
-    render() {
-        return(
-            <button>Custom Button</button>
-        );
-    }
-};
+import '../style/button.scss';
+
+const CustomButton = () => (
+    <button>Custom Button</button>
+);
 
 export default CustomButton;
